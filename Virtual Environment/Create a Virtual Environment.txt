@@ -1,0 +1,26 @@
+Create a new Virtual Environment
+****************************************
+Syn: conda create --name project_name
+Ex: conda create --name aiml
+
+If we need to change VM use below command
+*******************************************
+Syn: active project_name
+Ex: active aiml
+
+Install python and necessary packages
+*******************************************
+conda install python=3.7.6
+
+pip install numpy==1.17.4
+pip install pandas==0.25.3
+pip install scikit-learn==0.21.3
+pip install matplotlib==3.1.1
+
+Then Install Jupyter Notebook
+*******************************
+conda install jupyter notebook
+
+If we need to check package/library version give below command inside the VM
+***********************************************************
+conda list
